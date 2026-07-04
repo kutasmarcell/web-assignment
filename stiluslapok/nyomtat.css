@@ -1,0 +1,27 @@
+#anthropic-vid, 
+#deepmind-vid, 
+#figure-vid,
+#runway-vid,
+#car-slide,
+.navbar-brand,
+ nav,
+ footer,
+ button,
+ aside{
+    display: none !important;
+}
+
+body{
+    font-size: 0.8em;
+}
+
+section{
+    break-after: page;
+}
+
+#figure,
+#runway,
+#anthropic,
+#runway{
+    padding-top: 35px;
+}

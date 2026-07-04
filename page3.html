@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Innovatív AI vállalatok - Űrlap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="stiluslapok/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Kalam:wght@300;400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md px-3 fixed-top">
+        <a href="index.html" class="navbar-brand">Innovatív AI vállalatok</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLinks"
+            aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarLinks" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item px-md-2">
+                    <a href="index.html#anthropic" class="nav-link">Anthropic</a>
+                </li>
+                <li class="nav-item px-md-2">
+                    <a href="index.html#deepmind" class="nav-link">Deep Mind</a>
+                </li>
+                <li class="nav-item px-md-2">
+
+                    <a href="page2.html#figure" class="nav-link">Figure AI</a>
+                </li>
+                <li class="nav-item px-md-2">
+
+                    <a href="page2.html#runway" class="nav-link">Runway</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="container container-fluid p-6" id="form-container">
+        <div class="row">
+            
+            <div class="col-1 d-lg-none"></div>
+            <div class="col-10 col-lg-6">
+            <h3>Neked melyik a kedvenc AI vállalatod?</h3>
+            <aside>
+                <p>
+                    Küld el nekünk emailben!
+                </p>
+            </aside>
+            </div>
+            <div class="col-1 d-lg-none"></div>
+        </div>
+        <div class="row align-items-center">
+
+            <div class="col-1 d-lg-none"></div>
+            <form class=" col-10 col-lg-6" action="mailto:kutasmarcell@gmail.com" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"><b>Email címed</b></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label"><b>Vállalat neve</b></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Vállalat neve">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><b>Rövid leírás</b></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <p><b>Értékelés</b></p>
+                    <div class="form-check ">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                        <label class="form-check-label" for="radioDefault1">
+                            3 - Tökéletes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                        <label class="form-check-label" for="radioDefault2">
+                            2 - Nagyszerű
+                        </label>
+                    </div>
+                    <div class="form-check ">
+                        <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                        <label class="form-check-label" for="radioDefault1">
+                            1 - Elfogadható
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="checkChecked">
+                    <label class="form-check-label" for="checkChecked">
+                        Feliratkozom a hírlevélre
+                    </label> <br>
+                </div>
+
+                <button type="button" class="btn btn-dark w-50">Küldés</button>
+                <button class="btn btn-danger w-40" type="reset">Törlés</button>
+            </form>
+            <div class="col-1 d-lg-none"></div>
+            <div class="col-4 col-lg-6 d-none d-lg-inline-block">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10">
+                        <img src="media/űrlap_picture.png" alt="futuristic" class="img-fluid" id="urlap-picture">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark mx-0 px-0">
+        <div class="row align-items-center px-4">
+            <div class="col-lg-4 col-6 text-white">
+                <nav aria-label="breadcrumb">
+                    <a href="#">Elejére</a> &gt; <a href="#figure">Űrlap</a>
+                </nav>
+            </div>
+            <div class="col-4 d-none d-lg-inline-block  text-center text-white pt-3">
+                <p>Készítette <br> Kutas Marcell</p>
+
+            </div>
+            <div class="col-lg-4 col-6 text-end">
+                <a href="page2.html">Előző oldal</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

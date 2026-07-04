@@ -1,0 +1,16 @@
+
+#car-slide{
+    padding-right: 50px;
+}
+
+
+@media(max-width:994px){
+    #car-slide{
+        margin-bottom: 20px;
+        padding-right: 0;
+    }
+}
+
+#introduction {
+    margin-top: 80px;
+}
