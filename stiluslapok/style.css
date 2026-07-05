@@ -100,6 +100,7 @@ form button{
 footer a {
     text-decoration: none;
     color: rgb(30, 236, 47);
+    padding: 5px;
 }
 
 @media(min-width: 995px){
@@ -121,8 +122,9 @@ video{
         font-size: 1em;
     }
     footer {
-        font-size: 0.7em;
+        font-size: 1em;
     }
+
 }
 
 @media(max-width: 440px) {
@@ -131,7 +133,7 @@ video{
         font-size: 0.8em;
     }
     footer {
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
 
