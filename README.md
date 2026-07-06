@@ -1,6 +1,6 @@
 # Summary of the Project  
 
-This project is a web page which showcases four AI company. Originally it was a university assignment but I have remade it, so now it has a better design than the first version.  
+This project is a web page which showcases four innovative AI companies. Originally it was a university assignment but I have remade it, so now it has a better design than the first version.  
   
 The focus is on the design, responsivity and accessibility so it has made only with HTML, CSS and Bootstrap.  
 
